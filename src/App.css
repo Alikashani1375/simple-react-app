@@ -1,0 +1,222 @@
+#topbg {
+  background-image: url("./components/images/bg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: radial-gradient(
+    110% 50% at bottom,
+    transparent 50%,
+    #fff 51%
+  );
+  mask-image: radial-gradient(110% 60% at bottom, transparent 50%, #fff 51%);
+  height: 90vh;
+}
+#footer {
+  background-image: url("./components/images/bg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: radial-gradient(
+    110% 50% at top,
+    transparent 50%,
+    #fff 51%
+  );
+  position: absolute;
+  z-index: 100000 !important;
+  margin-top: -40px;
+  mask-image: radial-gradient(110% 60% at top, transparent 50%, #fff 51%);
+  height: 60vh;
+}
+.slick-active div:nth-child(1) {
+  color: #00d9ff !important;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+#shadowtext {
+  text-shadow: rgb(0, 204, 255) 0px 0 10px;
+}
+#textcolorlightblue {
+  color: #00d9ff;
+}
+#lightblueunderline {
+  margin: 20px 0;
+  width: 5vw;
+  height: 1vh;
+  background-color: #63d9d9;
+  box-shadow: 0px 0px 10px 2px rgb(0, 238, 255);
+  border-radius: 30px;
+}
+
+#btn-shadow {
+  position: relative;
+  padding: 1em 3em;
+  color: rgb(110, 237, 237);
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 0 0 0.5em rgb(110, 237, 237);
+  background-color: rgb(44, 157, 157);
+  border: 0.25em solid rgb(110, 237, 237);
+  border-radius: 1em;
+
+  box-shadow: 0 0 1em 0.25em rgb(110, 237, 237),
+    0 0 4em 1em rgba(65, 243, 243, 0.78),
+    inset 0 0 0.75em 0.25em rgb(110, 237, 237);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btn-shadow:hover {
+  color: rgb(44, 157, 157);
+  background-color: rgb(110, 237, 237);
+  box-shadow: 0 0 1em 0.25em rgb(110, 237, 237),
+    0 0 4em 2em rgba(65, 243, 243, 0.78),
+    inset 0 0 0.75em 0.25em rgb(110, 237, 237);
+}
+#btn-shadow:active {
+  box-shadow: 0 0 0 0.6em 0.25em rgb(100, 237, 237),
+    0 0 2.5em 2em rgba(65, 243, 243, 0.78),
+    inset 0 0 0.5em 0.25em rgb(100, 237, 237);
+}
+li div {
+  border: none !important;
+  border-bottom: 1px solid rgb(31, 31, 31) !important;
+}
+li {
+  margin-left: 10px !important;
+}
+li div:hover {
+  color: rgb(0, 140, 255) !important;
+  border-bottom: 1px solid rgb(33, 164, 252) !important;
+}
+#dlbutton {
+  background: linear-gradient(1turn, #07c4e6, #85e5e5);
+  box-shadow: 5px 8px 15px 4px rgb(24, 24, 24);
+}
+#shadowbox {
+  box-shadow: 0px 10px 20px 2px rgb(177, 177, 177);
+}
+#topbgcenter {
+  margin-right: 300px;
+}
+.me-10 {
+  margin-right: 12rem;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+
+#firstslideshowbutton {
+  background-color: #6eeded;
+  color: rgb(61, 61, 61) !important;
+  box-shadow: 4px 5px 10px 0px rgba(58, 58, 58, 0.438);
+  padding: 4px 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.slick-dots ul {
+  position: absolute;
+  top: -500px;
+  left: 0 !important;
+}
+.slick-list {
+  margin-top: 50px !important;
+  z-index: 10000 !important;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  #topbg {
+    height: 55vh !important;
+  }
+  #btndivs {
+    padding: 10px !important;
+  }
+  #btn {
+    font-size: 13px;
+    margin: 0px 0px !important;
+  }
+  #topbgcenter {
+    align-items: center !important;
+    margin-right: 0px;
+  }
+  #lightblueunderline {
+    width: 80% !important;
+    margin: 5px !important;
+  }
+  #textcenter {
+    text-align: center !important;
+    margin: 5px 0px !important;
+    font-size: 20px !important;
+  }
+  #btn-shadow {
+    font-size: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 5px !important;
+    padding-left: 15px !important;
+    height: 42px !important;
+  }
+  #justify-content-between {
+    justify-content: space-around !important;
+  }
+  #mt-100 {
+    margin-top: 0px !important;
+    top: 100px !important;
+  }
+  .slick-initialized {
+    margin: 0 !important;
+    margin-top: -100px !important;
+  }
+  #texttop {
+    top: -150px !important;
+  }
+  .slick-list {
+    margin-top: 20px !important;
+    z-index: 10000 !important;
+    position: absolute;
+  }
+  #mtcenter {
+    flex-direction: column !important ;
+  }
+  #img {
+    height: 400px !important;
+    margin-top: 40px !important;
+  }
+  .hide {
+    display: none !important;
+  }
+  #curvedivtop {
+    margin-top: 50px !important;
+  }
+  #curvediv {
+    margin-top: -12% !important;
+  }
+  #textonimagediv {
+    margin-top: 120px !important;
+  }
+  #pt15 {
+    padding-top: 15vh !important;
+  }
+  #font15 {
+    font-size: 15px !important;
+  }
+  #lightblueunderline {
+    margin: 10px 0px !important;
+  }
+  #btnfooter {
+    margin-top: -120px !important;
+  }
+}
